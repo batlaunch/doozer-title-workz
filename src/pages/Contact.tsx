@@ -133,7 +133,7 @@ const Contact = () => {
                         rows={4}
                       />
                     </div>
-                    <Button type="submit" className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
+                    <Button type="submit" className="w-full bg-secondary text-primary hover:bg-secondary/90 hover:scale-105">
                       <Send className="w-4 h-4 mr-2" /> Send Message
                     </Button>
                   </form>
