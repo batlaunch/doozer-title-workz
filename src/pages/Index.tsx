@@ -12,8 +12,11 @@ const Index = () => {
         <div className="absolute inset-0" style={{ background: "var(--hero-gradient)" }} />
         <div className="relative z-10 container mx-auto px-4 text-center py-20">
           <div className="max-w-3xl mx-auto animate-fade-in-up">
-            <div className="inline-flex items-center gap-2 bg-secondary/20 border border-secondary/30 rounded-full px-4 py-1.5 mb-6 text-sm text-primary-foreground/90">
-              <Star className="w-4 h-4 text-secondary" /> Local Business in El Cajon, CA
+            <img src={logoIcon} alt="Doozer Title Workz logo" className="w-28 h-28 mx-auto mb-4" width={112} height={112} />
+            <p className="text-2xl md:text-3xl font-bold text-primary-foreground mb-6">
+              <span className="text-primary-foreground">Doozer</span>{" "}
+              <span className="text-secondary">Title Workz</span>
+            </p>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight mb-6">
               Skip the DMV Line —{" "}
