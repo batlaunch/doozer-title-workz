@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Clock, MapPin, Users, Star, ChevronRight, FileText, Car, Shield, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import heroBg from "@/assets/hero-bg.jpg";
+import logoIcon from "@/assets/logo-icon.png";
 
 const Index = () => {
   return (
