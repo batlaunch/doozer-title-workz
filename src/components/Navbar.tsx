@@ -38,7 +38,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a href="tel:6194326363">
-            <Button size="sm" className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
+            <Button size="sm" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105">
               <Phone className="w-4 h-4 mr-1" /> (619) 432-6363
             </Button>
           </a>

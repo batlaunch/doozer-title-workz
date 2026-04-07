@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Star, Award, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ownerPortrait from "@/assets/owner-portrait.jpg";
+import ownerPortrait from "@/assets/lessley-jackson.png";
 
 const About = () => (
   <div className="min-h-screen pt-16">
