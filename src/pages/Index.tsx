@@ -17,7 +17,6 @@ const Index = () => {
               <span className="text-primary-foreground">Doozer</span>{" "}
               <span className="text-secondary">Title Workz</span>
             </p>
-            </div>
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight mb-6">
               Skip the DMV Line —{" "}
               <span className="text-secondary">We Handle It for You</span>
