@@ -9,10 +9,7 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img src={heroBg} alt="Vehicle registration office" className="w-full h-full object-cover" width={1920} height={1080} />
-          <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.88 }} />
-        </div>
+        <div className="absolute inset-0" style={{ background: "var(--hero-gradient)" }} />
         <div className="relative z-10 container mx-auto px-4 text-center py-20">
           <div className="max-w-3xl mx-auto animate-fade-in-up">
             <div className="inline-flex items-center gap-2 bg-secondary/20 border border-secondary/30 rounded-full px-4 py-1.5 mb-6 text-sm text-primary-foreground/90">
