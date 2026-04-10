@@ -29,11 +29,11 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 shrink-0" />
-              <a href="tel:6194326363" className="hover:text-primary-foreground">(619) 432-6363</a>
+              <a href="tel:6194577943" className="hover:text-primary-foreground">(619) 457-7943</a>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 shrink-0" />
-              <a href="mailto:lessley@doozerstitles.com" className="hover:text-primary-foreground">lessley@doozerstitles.com</a>
+              <a href="mailto:info@doozerstitles.com" className="hover:text-primary-foreground">info@doozerstitles.com</a>
             </div>
           </div>
         </div>

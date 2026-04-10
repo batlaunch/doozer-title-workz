@@ -25,7 +25,7 @@ const Index = () => {
             </p>
             <div style={{ height: "12vh" }} />
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="tel:6194326363">
+              <a href="tel:6194577943">
                 <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
                   <Phone className="w-5 h-5 mr-2" /> Call Now
                 </Button>
@@ -187,7 +187,7 @@ const Index = () => {
             Get your registration done fast with personalized, expert service. Call us or visit our El Cajon office.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="tel:6194326363">
+            <a href="tel:6194577943">
               <Button size="lg" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105 px-8">
                 <Phone className="w-5 h-5 mr-2" /> Call Now for Quick Service
               </Button>
