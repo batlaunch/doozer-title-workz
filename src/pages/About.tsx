@@ -29,11 +29,6 @@ const About = () => (
               width={800}
               height={1000}
             />
-            <div className="mt-4 flex items-center gap-2 justify-center">
-              <div className="inline-flex items-center gap-1 bg-secondary/20 rounded-full px-3 py-1 text-xs font-medium text-secondary-foreground">
-                <Star className="w-3 h-3 text-secondary" /> Featured in East County Biz Center
-              </div>
-            </div>
           </div>
           <div>
             <h2 className="text-3xl font-bold text-foreground mb-4">Meet Lessley Jackson</h2>
