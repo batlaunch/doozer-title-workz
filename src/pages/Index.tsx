@@ -49,7 +49,7 @@ const Index = () => {
               { icon: Users, title: "Personalized Service", desc: "Title Specialists dedicated to your needs" },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 p-4">
-                <div className="rounded-lg bg-primary/10 p-3">
+                <div className="rounded-lg bg-secondary/20 p-3">
                   <item.icon className="w-6 h-6 text-primary" />
                 </div>
                 <div>
@@ -132,7 +132,7 @@ const Index = () => {
               { title: "Friendly, Knowledgeable Staff", desc: "Title Specialists dedicated to answering all your questions with personalized solutions.", label: "[EXAMPLE – EDIT NEEDED]" },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 p-5 rounded-lg bg-card border border-border">
-                <div className="rounded-full bg-secondary/20 p-2 mt-0.5">
+                <div className="rounded-full bg-primary/15 p-2 mt-0.5">
                   <Star className="w-4 h-4 text-secondary" />
                 </div>
                 <div>
