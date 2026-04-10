@@ -128,8 +128,8 @@ const Index = () => {
               { title: "Local, Community-Focused", desc: "A proud part of the East County Biz Center community in El Cajon.", label: null },
               { title: "Military-Friendly", desc: "Specialized assistance for our military community with title transfers across the nation.", label: null },
               { title: "Auto Dealer Services", desc: "Expert support for new and existing auto dealers, in-state and out-of-state.", label: null },
-              { title: "Fast Turnaround Times", desc: "Skip the 1.5-hour DMV wait — get your paperwork handled efficiently.", label: "[EXAMPLE – EDIT NEEDED]" },
-              { title: "Friendly, Knowledgeable Staff", desc: "Title Specialists dedicated to answering all your questions with personalized solutions.", label: "[EXAMPLE – EDIT NEEDED]" },
+              { title: "Fast Turnaround Times", desc: "Skip the 1.5-hour DMV wait — get your paperwork handled efficiently.", label: null },
+              { title: "Friendly, Knowledgeable Staff", desc: "Title Specialists dedicated to answering all your questions with personalized solutions.", label: null },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 p-5 rounded-lg bg-card border border-border">
                 <div className="rounded-full bg-primary/15 p-2 mt-0.5">
