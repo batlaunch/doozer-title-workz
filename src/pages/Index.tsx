@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Clock, MapPin, Users, Star, ChevronRight, FileText, Car, Shield, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import CarCard from "@/components/CarCard";
 import logoIcon from "@/assets/logo-icon.png";
 import heroSloth from "@/assets/hero-sloth.jpg";
 
@@ -70,21 +71,13 @@ const Index = () => {
               We handle the paperwork so you don't have to. From registration to title transfers, we've got you covered.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
               { icon: Car, title: "Vehicle Registration", desc: "New registrations and renewals processed quickly without the DMV wait." },
               { icon: FileText, title: "Title Transfers", desc: "Gifted vehicles, inheritances, purchases — we handle all transfer types." },
               { icon: Shield, title: "Out-of-State Transfers", desc: "Moving to California? We'll get your vehicle properly registered." },
             ].map((s, i) => (
-              <Card key={i} className="border border-border hover:shadow-lg transition-shadow">
-                <CardContent className="p-6">
-                  <div className="rounded-lg bg-primary/10 p-3 w-fit mb-4">
-                    <s.icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <h3 className="text-lg font-semibold text-foreground mb-2">{s.title}</h3>
-                  <p className="text-sm text-muted-foreground">{s.desc}</p>
-                </CardContent>
-              </Card>
+              <CarCard key={i} icon={s.icon} title={s.title} desc={s.desc} />
             ))}
           </div>
           <div className="text-center mt-8">

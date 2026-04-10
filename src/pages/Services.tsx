@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Car, FileText, Shield, Tag, Truck, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import CarCard from "@/components/CarCard";
 import servicesBg from "@/assets/services-bg.jpg";
 
 const services = [
@@ -31,18 +32,9 @@ const Services = () => (
     {/* Services Grid */}
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {services.map((s, i) => (
-            <Card key={i} className="border border-border hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <div className="rounded-lg bg-primary/10 p-3 w-fit mb-4">
-                  <s.icon className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">{s.title}</h3>
-                <p className="text-sm text-muted-foreground">{s.desc}</p>
-                {s.label && <p className="text-xs text-muted-foreground italic mt-2">{s.label}</p>}
-              </CardContent>
-            </Card>
+            <CarCard key={i} icon={s.icon} title={s.title} desc={s.desc} label={s.label} />
           ))}
         </div>
       </div>
