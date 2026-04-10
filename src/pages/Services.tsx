@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Car, FileText, Shield, RefreshCw, Tag, Copy, Truck, ArrowRight } from "lucide-react";
+import { Phone, Car, FileText, Shield, Tag, Truck, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import servicesBg from "@/assets/services-bg.jpg";
@@ -8,8 +8,7 @@ const services = [
   { icon: Car, title: "Vehicle Registration (New & Renewal)", desc: "Whether you're registering a new vehicle or renewing your current registration, we process everything quickly so you can skip the DMV wait.", label: null },
   { icon: FileText, title: "Title Transfers", desc: "Gifted vehicles, purchases, inheritances — we handle all types of title transfers with expertise, ensuring no documents are missed.", label: null },
   { icon: Shield, title: "Out-of-State Title Transfers", desc: "Moving to California? We specialize in transferring out-of-state titles, navigating the complex requirements so you don't have to.", label: null },
-  { icon: Tag, title: "Replacement Tags & Stickers", desc: "Lost or damaged registration tags? We'll get your replacements processed fast.", label: "[EXAMPLE SERVICE – EDIT NEEDED]" },
-  { icon: Copy, title: "Duplicate Registration", desc: "Need a copy of your registration? We can help you obtain a duplicate quickly.", label: "[EXAMPLE SERVICE – EDIT NEEDED]" },
+  { icon: Tag, title: "Replacement Tags & Stickers", desc: "Lost registration tags? We'll get your replacements processed quickly.", label: null },
   { icon: Truck, title: "Auto Dealer Registration Services", desc: "Specialized support for new and existing auto dealers with registration issues, both in-state and out-of-state.", label: null },
 ];
 
