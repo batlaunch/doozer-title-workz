@@ -92,7 +92,7 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 
-  h1 {
+  h2 {
     font-family: 'Cinzel Decorative', serif;
   }
 }
