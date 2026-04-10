@@ -100,14 +100,12 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { step: "1", title: "Make Appointment", desc: "Contact us to schedule a convenient time for your service." },
-              { step: "2", title: "Gather Requested Paperwork", desc: "We'll let you know exactly what documents you need to bring." },
-              { step: "3", title: "We Handle the Rest", desc: "Sit back while our Title Specialists take care of everything." },
+              { img: slothProcess1, title: "Make Appointment", desc: "Contact us to schedule a convenient time for your service." },
+              { img: slothProcess2, title: "Gather Requested Paperwork", desc: "We'll let you know exactly what documents you need to bring." },
+              { img: slothProcess3, title: "We Handle the Rest", desc: "Sit back while our Title Specialists take care of everything." },
             ].map((item, i) => (
               <div key={i} className="text-center">
-                <div className="w-14 h-14 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center text-xl font-bold mx-auto mb-4">
-                  {item.step}
-                </div>
+                <img src={item.img} alt={item.title} className="w-24 h-24 mx-auto mb-4 object-contain" />
                 <h3 className="text-lg font-semibold text-foreground mb-2">{item.title}</h3>
                 <p className="text-sm text-muted-foreground">{item.desc}</p>
               </div>
