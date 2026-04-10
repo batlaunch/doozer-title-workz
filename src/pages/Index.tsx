@@ -97,13 +97,12 @@ const Index = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">How It Works</h2>
             <p className="text-muted-foreground">Three simple steps to get back on the road.</p>
-            <p className="text-xs text-muted-foreground mt-1 italic">[EXAMPLE PROCESS – EDIT NEEDED]</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { step: "1", title: "Bring Your Documents", desc: "Gather your vehicle paperwork and visit our El Cajon office." },
-              { step: "2", title: "We Handle the Paperwork", desc: "Our Title Specialists process everything quickly and accurately." },
-              { step: "3", title: "Get Back on the Road", desc: "Walk out with your registration or title taken care of." },
+              { step: "1", title: "Make Appointment", desc: "Contact us to schedule a convenient time for your service." },
+              { step: "2", title: "Gather Requested Paperwork", desc: "We'll let you know exactly what documents you need to bring." },
+              { step: "3", title: "We Handle the Rest", desc: "Sit back while our Title Specialists take care of everything." },
             ].map((item, i) => (
               <div key={i} className="text-center">
                 <div className="w-14 h-14 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center text-xl font-bold mx-auto mb-4">
@@ -129,8 +128,8 @@ const Index = () => {
               { title: "Local, Community-Focused", desc: "A proud part of the East County Biz Center community in El Cajon.", label: null },
               { title: "Military-Friendly", desc: "Specialized assistance for our military community with title transfers across the nation.", label: null },
               { title: "Auto Dealer Services", desc: "Expert support for new and existing auto dealers, in-state and out-of-state.", label: null },
-              { title: "Fast Turnaround Times", desc: "Skip the 1.5-hour DMV wait — get your paperwork handled efficiently.", label: "[EXAMPLE – EDIT NEEDED]" },
-              { title: "Friendly, Knowledgeable Staff", desc: "Title Specialists dedicated to answering all your questions with personalized solutions.", label: "[EXAMPLE – EDIT NEEDED]" },
+              { title: "Fast Turnaround Times", desc: "Skip the 1.5-hour DMV wait — get your paperwork handled efficiently.", label: null },
+              { title: "Friendly, Knowledgeable Staff", desc: "Title Specialists dedicated to answering all your questions with personalized solutions.", label: null },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 p-5 rounded-lg bg-card border border-border">
                 <div className="rounded-full bg-primary/15 p-2 mt-0.5">
