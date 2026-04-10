@@ -9,7 +9,7 @@ const About = () => (
     <section className="py-20 relative overflow-hidden">
       <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.95 }} />
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">About Doozer Title Workz</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">About Doozers Title Workz</h1>
         <p className="text-primary-foreground/80 max-w-2xl mx-auto text-lg">
           Your hassle-free vehicle registration solution, built on 20+ years of experience and a passion for customer service.
         </p>
@@ -23,7 +23,7 @@ const About = () => (
           <div>
             <img
               src={ownerPortrait}
-              alt="Lessley Jackson, owner of Doozer Title Workz"
+              alt="Lessley Jackson, owner of Doozers Title Workz"
               className="rounded-2xl shadow-lg w-full"
               loading="lazy"
               width={800}
@@ -38,16 +38,16 @@ const About = () => (
           <div>
             <h2 className="text-3xl font-bold text-foreground mb-4">Meet Lessley Jackson</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              With over 20 years of experience in the automotive business, Lessley Jackson founded Doozer Title Workz to provide a more personal, efficient alternative to the traditional DMV experience.
+              Lessley Jackson is the founder and driving force behind Doozers Title Workz, a specialized DMV registration and title service company serving dealerships, lenders, and private clients throughout California. With over 20 years of experience in the automotive industry, Lessley brings a rare depth of knowledge and hands-on expertise in navigating complex title and registration transactions.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Navigating the complexities of vehicle registration and title transfers can be daunting — the average person spends hours at the DMV, often leaving without accomplishing their goals. In fact, 33% of people leave the DMV without completing their registration. Lessley saw this problem and built a solution.
+              Beginning her career in the dealer world at just 15 years old, Lessley developed a strong foundation in dealership operations, title processing, and compliance. Over the years, she has become known for her ability to resolve difficult and often time-sensitive title issues—particularly those involving out-of-state transfers, lienholder discrepancies, and incomplete or problematic documentation.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Her comprehensive knowledge of the DMV system ensures clients avoid common pitfalls like missing transfer documents or complex situations like transferring out-of-state titles. She brings her passion for vehicle registration to every transaction.
+              Through Doozers Title Workz, Lessley partners closely with automotive dealerships, financial institutions, and industry professionals to ensure transactions are processed accurately, efficiently, and in full compliance with California DMV regulations. Her services extend beyond processing—she also provides consulting, troubleshooting, and training for dealership staff, helping clients better understand DMV procedures and avoid costly delays or penalties.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Lessley's expertise shines in challenging situations — from registering vehicles without complete paperwork to assisting our military community with title transfers across the nation. Her ability to navigate the system and deliver results is a testament to her proficiency and passion for her trade.
+              Lessley is deeply committed to raising the standard within the industry. Her mission centers on continuous improvement, education, and leaving a positive, lasting impact on the automotive and DMV services space. Known for her professionalism, responsiveness, and solutions-driven approach, she has built a reputation as a trusted resource for even the most complex title challenges.
             </p>
           </div>
         </div>
