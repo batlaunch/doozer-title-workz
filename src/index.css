@@ -11,8 +11,8 @@ All colors MUST be HSL.
     --background: 30 20% 97%;
     --foreground: 345 40% 15%;
 
-    --card: 345 30% 95%;
-    --card-alt: 25 40% 95%;
+    --card: 345 35% 88%;
+    --card-alt: 25 50% 90%;
     --card-foreground: 345 40% 15%;
 
     --popover: 0 0% 100%;
@@ -41,7 +41,7 @@ All colors MUST be HSL.
 
     --hero-gradient: linear-gradient(135deg, hsl(345 60% 22%) 0%, hsl(345 50% 35%) 100%);
     --gold-gradient: linear-gradient(135deg, hsl(25 90% 55%) 0%, hsl(20 95% 45%) 100%);
-    --section-alt: 25 40% 93%;
+    --section-alt: 25 55% 85%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 345 20% 26%;
