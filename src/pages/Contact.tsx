@@ -56,14 +56,14 @@ const Contact = () => {
                   <div className="rounded-lg bg-primary/10 p-3"><Phone className="w-5 h-5 text-primary" /></div>
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
-                    <a href="tel:6194326363" className="text-sm text-primary hover:underline">(619) 432-6363</a>
+                    <a href="tel:6194577943" className="text-sm text-primary hover:underline">(619) 457-7943</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="rounded-lg bg-primary/10 p-3"><Mail className="w-5 h-5 text-primary" /></div>
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
-                    <a href="mailto:lessley@doozerstitles.com" className="text-sm text-primary hover:underline">lessley@doozerstitles.com</a>
+                    <a href="mailto:info@doozerstitles.com" className="text-sm text-primary hover:underline">info@doozerstitles.com</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

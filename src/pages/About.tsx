@@ -83,7 +83,7 @@ const About = () => (
         <p className="text-muted-foreground leading-relaxed mb-6">
           Apart from assisting individuals, Lessley also lends her expertise to new and existing auto dealers — both in-state and out-of-state — helping them with registration issues. She's also collaborating with East County Business Center to develop courses aimed at aiding new car dealers in passing their DMV dealership licensing exams and setting up their dealerships.
         </p>
-        <a href="tel:6194326363">
+        <a href="tel:6194577943">
           <Button size="lg" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105">
             <Phone className="w-5 h-5 mr-2" /> Contact for Dealer Services
           </Button>
