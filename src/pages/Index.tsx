@@ -14,16 +14,15 @@ const Index = () => {
         <img src={heroSloth} alt="Doozer Title Workz mascot holding a California license plate" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/50" />
         <div className="relative z-10 container mx-auto px-4 text-center py-20">
-          <div className="max-w-3xl mx-auto animate-fade-in-up flex flex-col items-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight mb-6 text-center">
+          <div className="max-w-3xl mx-auto animate-fade-in-up">
+            <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight mb-6">
               Skip the DMV Line —{" "}
               <span className="text-secondary">We Handle It for You</span>
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 mb-4 max-w-2xl mx-auto text-center">
+            <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 max-w-2xl mx-auto">
               Fast, reliable vehicle registration and title services in El Cajon.
               Over 20 years of experience making your DMV paperwork stress-free.
             </p>
-            <div className="mb-4" style={{ height: "12vh" }} />
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="tel:6194326363">
                 <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
