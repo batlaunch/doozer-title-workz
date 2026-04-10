@@ -3,20 +3,17 @@ import { Phone, Clock, MapPin, Users, Star, ChevronRight, FileText, Car, Shield,
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import logoIcon from "@/assets/logo-icon.png";
+import heroSloth from "@/assets/hero-sloth.jpg";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0" style={{ background: "var(--hero-gradient)" }} />
+        <img src={heroSloth} alt="Doozer Title Workz mascot holding a California license plate" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-foreground/50" />
         <div className="relative z-10 container mx-auto px-4 text-center py-20">
           <div className="max-w-3xl mx-auto animate-fade-in-up">
-            <img src={logoIcon} alt="Doozer Title Workz logo" className="w-28 h-28 mx-auto mb-4" width={112} height={112} />
-            <p className="text-2xl md:text-3xl font-bold text-primary-foreground mb-6">
-              <span className="text-primary-foreground">Doozer</span>{" "}
-              <span className="text-secondary">Title Workz</span>
-            </p>
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight mb-6">
               Skip the DMV Line —{" "}
               <span className="text-secondary">We Handle It for You</span>
@@ -27,12 +24,12 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="tel:6194326363">
-                <Button size="lg" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105 text-base px-8">
+                <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
                   <Phone className="w-5 h-5 mr-2" /> Call Now
                 </Button>
               </a>
               <Link to="/services">
-                <Button size="lg" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105 text-base px-8">
+                <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
                   Start Your Registration <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
