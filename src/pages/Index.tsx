@@ -95,7 +95,7 @@ const Index = () => {
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">How It Works</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">How It Workz</h2>
             <p className="text-muted-foreground">Three simple steps to get back on the road.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
