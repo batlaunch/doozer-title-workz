@@ -11,7 +11,7 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <img src={heroSloth} alt="Doozer Title Workz mascot holding a California license plate" className="absolute inset-0 w-full h-full object-cover" />
+        <img src={heroSloth} alt="Doozers Title Workz mascot holding a California license plate" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/50" />
         <div className="relative z-10 container mx-auto px-4 text-center py-20">
           <div className="max-w-3xl mx-auto animate-fade-in-up">
@@ -19,10 +19,11 @@ const Index = () => {
               Skip the DMV Line —{" "}
               <span className="text-secondary">We Handle It for You</span>
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-primary-foreground/85 max-w-2xl mx-auto">
               Fast, reliable vehicle registration and title services in El Cajon.
               Over 20 years of experience making your DMV paperwork stress-free.
             </p>
+            <div style={{ height: "12vh" }} />
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="tel:6194326363">
                 <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
@@ -120,7 +121,7 @@ const Index = () => {
       <section className="py-20 bg-section-alt">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">Why Choose Doozer Title Workz?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">Why Choose Doozers Title Workz?</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
