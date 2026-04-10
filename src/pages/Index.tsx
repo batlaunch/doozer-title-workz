@@ -5,6 +5,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import CarCard from "@/components/CarCard";
 import logoIcon from "@/assets/logo-icon.png";
 import heroSloth from "@/assets/hero-sloth.jpg";
+import slothProcess1 from "@/assets/sloth-process-1.png";
+import slothProcess2 from "@/assets/sloth-process-2.png";
+import slothProcess3 from "@/assets/sloth-process-3.png";
 
 const Index = () => {
   return (
