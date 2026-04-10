@@ -100,9 +100,9 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { step: "1", title: "Bring Your Documents", desc: "Gather your vehicle paperwork and visit our El Cajon office." },
-              { step: "2", title: "We Handle the Paperwork", desc: "Our Title Specialists process everything quickly and accurately." },
-              { step: "3", title: "Get Back on the Road", desc: "Walk out with your registration or title taken care of." },
+              { step: "1", title: "Make Appointment", desc: "Contact us to schedule a convenient time for your service." },
+              { step: "2", title: "Gather Requested Paperwork", desc: "We'll let you know exactly what documents you need to bring." },
+              { step: "3", title: "We Handle the Rest", desc: "Sit back while our Title Specialists take care of everything." },
             ].map((item, i) => (
               <div key={i} className="text-center">
                 <div className="w-14 h-14 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center text-xl font-bold mx-auto mb-4">
