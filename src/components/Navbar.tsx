@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <Link to="/" className="flex items-center gap-2">
           <img src={logoIcon} alt="Doozers Title Workz logo" className="w-14 h-14" width={56} height={56} />
-          <span className="text-xl text-primary" style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}>Doozers</span>
+          <span className="text-3xl md:text-4xl text-primary" style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}>Doozers</span>
           <span className="text-xl font-bold text-secondary">Title Workz</span>
         </Link>
 
