@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
-import { Phone, Car, FileText, Shield, Tag, Truck, ArrowRight } from "lucide-react";
+import { Phone, Car, FileText, Shield, Tag, Truck } from "lucide-react";
+import slothProcess1 from "@/assets/sloth-process-1.png";
+import slothProcess2 from "@/assets/sloth-process-2.png";
+import slothProcess3 from "@/assets/sloth-process-3.png";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import CarCard from "@/components/CarCard";
