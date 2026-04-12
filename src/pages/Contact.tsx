@@ -70,9 +70,7 @@ const Contact = () => {
                   <div className="rounded-lg bg-primary/10 p-3"><Clock className="w-5 h-5 text-primary" /></div>
                   <div>
                     <h3 className="font-semibold text-foreground">Hours</h3>
-                    <p className="text-sm text-muted-foreground">[EXAMPLE HOURS – EDIT NEEDED]</p>
-                    <p className="text-sm text-muted-foreground">Mon–Fri: 9:00 AM – 5:00 PM</p>
-                    <p className="text-sm text-muted-foreground">Sat: By Appointment</p>
+                    <p className="text-sm text-muted-foreground">Mon–Fri: 9:00 AM – 4:00 PM</p>
                   </div>
                 </div>
               </div>
