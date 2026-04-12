@@ -13,7 +13,7 @@ const services = [
   { icon: FileText, title: "Title Transfers", desc: "Gifted vehicles, purchases, inheritances — we handle all types of title transfers with expertise, ensuring no documents are missed.", label: null },
   { icon: Shield, title: "Out-of-State Title Transfers", desc: "Moving to California? We specialize in transferring out-of-state titles, navigating the complex requirements so you don't have to.", label: null },
   { icon: Tag, title: "Replacement Tags & Stickers", desc: "Lost registration tags? We'll get your replacements processed quickly.", label: null },
-  { icon: Truck, title: "Auto Dealer Registration Services", desc: "Specialized support for new and existing auto dealers with registration issues, both in-state and out-of-state.", label: null },
+  { icon: Truck, title: "New and Used Auto Dealer Registration", desc: "Specialized support for new and existing auto dealers with registration issues, both in-state and out-of-state.", label: null },
 ];
 
 const Services = () => (
