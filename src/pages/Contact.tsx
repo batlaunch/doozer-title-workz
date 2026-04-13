@@ -17,10 +17,52 @@ const Contact = () => {
   const { toast } = useToast();
   const [form, setForm] = useState({ name: "", phone: "", service: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "Message Sent!", description: "We'll get back to you as soon as possible." });
-    setForm({ name: "", phone: "", service: "", message: "" });
+
+    const text = [
+      "New message from the Doozer Title Workz website:",
+      `Name: ${form.name}`,
+      `Phone: ${form.phone || "Not provided"}`,
+      `Service Needed: ${form.service || "Not provided"}`,
+      `Message: ${form.message || "Not provided"}`,
+    ].join("\n");
+
+    const html = `
+      <h2>New message from the Doozer Title Workz website</h2>
+      <p><strong>Name:</strong> ${form.name}</p>
+      <p><strong>Phone:</strong> ${form.phone || "Not provided"}</p>
+      <p><strong>Service Needed:</strong> ${form.service || "Not provided"}</p>
+      <p><strong>Message:</strong><br />${form.message || "Not provided"}</p>
+    `;
+
+    try {
+      const response = await fetch("https://batlaunch.com/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          to: "timothy.j.cleveland1@gmail.com",
+          subject: "Contact request to Doozer Title Workz",
+          text,
+          html,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
+
+      toast({ title: "Message Sent!", description: "We'll get back to you as soon as possible." });
+      setForm({ name: "", phone: "", service: "", message: "" });
+    } catch {
+      toast({
+        title: "Message Failed",
+        description: "There was a problem sending your message. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
