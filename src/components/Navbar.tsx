@@ -17,10 +17,10 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-b border-border shadow-sm">
-      <div className="container mx-auto flex items-center justify-between h-16 px-4">
+      <div className="flex items-center justify-between h-16 px-4">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logoIcon} alt="Doozer Title Workz logo" className="w-14 h-14" width={56} height={56} />
-          <span className="text-xl font-bold text-primary">Doozer</span>
+          <img src={logoIcon} alt="Doozers Title Workz logo" className="w-14 h-14" width={56} height={56} />
+          <span className="text-3xl md:text-4xl text-primary" style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700 }}>Doozers</span>
           <span className="text-xl font-bold text-secondary">Title Workz</span>
         </Link>
 
@@ -39,9 +39,9 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <a href="tel:6194326363">
+          <a href="tel:6194577943">
             <Button size="sm" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105">
-              <Phone className="w-4 h-4 mr-1" /> (619) 432-6363
+              <Phone className="w-4 h-4 mr-1" /> (619) 457-7943
             </Button>
           </a>
         </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <a href="tel:6194326363">
+            <a href="tel:6194577943">
               <Button size="sm" className="w-full bg-secondary text-primary hover:bg-secondary/90 hover:scale-105">
                 <Phone className="w-4 h-4 mr-1" /> Call Now
               </Button>

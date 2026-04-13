@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="container mx-auto px-4 py-12">
       <div className="grid md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-lg font-bold mb-3">Doozer Title Workz</h3>
+          <h3 className="text-lg font-bold mb-3">Doozers Title Workz</h3>
           <p className="text-primary-foreground/80 text-sm leading-relaxed">
             Your hassle-free vehicle registration solution in El Cajon, CA. Over 20 years of automotive industry experience.
           </p>
@@ -29,17 +29,17 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 shrink-0" />
-              <a href="tel:6194326363" className="hover:text-primary-foreground">(619) 432-6363</a>
+              <a href="tel:6194577943" className="hover:text-primary-foreground">(619) 457-7943</a>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 shrink-0" />
-              <a href="mailto:lessley@doozerstitles.com" className="hover:text-primary-foreground">lessley@doozerstitles.com</a>
+              <a href="mailto:info@doozerstitles.com" className="hover:text-primary-foreground">info@doozerstitles.com</a>
             </div>
           </div>
         </div>
       </div>
       <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center text-xs text-primary-foreground/60">
-        © {new Date().getFullYear()} Doozer Title Workz. All rights reserved.
+        © {new Date().getFullYear()} Doozers Title Workz. All rights reserved.
       </div>
     </div>
   </footer>

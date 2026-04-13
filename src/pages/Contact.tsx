@@ -98,23 +98,21 @@ const Contact = () => {
                   <div className="rounded-lg bg-primary/10 p-3"><Phone className="w-5 h-5 text-primary" /></div>
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
-                    <a href="tel:6194326363" className="text-sm text-primary hover:underline">(619) 432-6363</a>
+                    <a href="tel:6194577943" className="text-sm text-primary hover:underline">(619) 457-7943</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="rounded-lg bg-primary/10 p-3"><Mail className="w-5 h-5 text-primary" /></div>
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
-                    <a href="mailto:lessley@doozerstitles.com" className="text-sm text-primary hover:underline">lessley@doozerstitles.com</a>
+                    <a href="mailto:info@doozerstitles.com" className="text-sm text-primary hover:underline">info@doozerstitles.com</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="rounded-lg bg-primary/10 p-3"><Clock className="w-5 h-5 text-primary" /></div>
                   <div>
                     <h3 className="font-semibold text-foreground">Hours</h3>
-                    <p className="text-sm text-muted-foreground">[EXAMPLE HOURS – EDIT NEEDED]</p>
-                    <p className="text-sm text-muted-foreground">Mon–Fri: 9:00 AM – 5:00 PM</p>
-                    <p className="text-sm text-muted-foreground">Sat: By Appointment</p>
+                    <p className="text-sm text-muted-foreground">Mon–Fri: 9:00 AM – 4:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -122,7 +120,7 @@ const Contact = () => {
               {/* Map */}
               <div className="rounded-xl overflow-hidden border border-border h-64">
                 <iframe
-                  title="Doozer Title Workz location"
+                  title="Doozers Title Workz location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.8!2d-116.9625!3d32.7948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s270+E+Douglas+Ave+El+Cajon+CA!5e0!3m2!1sen!2sus!4v1"
                   width="100%"
                   height="100%"
