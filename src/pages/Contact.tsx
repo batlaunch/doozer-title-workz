@@ -43,8 +43,8 @@ const Contact = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          to: "timothy.j.cleveland1@gmail.com",
-          subject: "Contact request to Doozer Title Workz",
+          to: "info@doozerstitles.com",
+          subject: "Contact request from website form",
           text,
           html,
         }),
