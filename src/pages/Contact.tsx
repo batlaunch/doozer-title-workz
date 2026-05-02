@@ -187,8 +187,7 @@ const Contact = () => {
       {/* FAQ */}
       <section className="py-20 bg-section-alt">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-foreground text-center mb-3">Frequently Asked Questions</h2>
-          <p className="text-xs text-muted-foreground text-center italic mb-10">[EXAMPLE – EDIT NEEDED]</p>
+          <h2 className="text-3xl font-bold text-foreground text-center mb-10">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
               <Card key={i} className="border border-border">
