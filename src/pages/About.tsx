@@ -88,13 +88,12 @@ const About = () => (
             />
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-foreground mb-4">Meet [Mascot Name], Our Mascot</h3>
-            <p className="text-sm text-primary font-semibold mb-3">[Placeholder — replace with real bio &amp; photo]</p>
+            <h3 className="text-3xl font-bold text-foreground mb-4">Meet Bernie, Our Mascot</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              [Placeholder bio] Every great team has a mascot, and ours is the very good pup who keeps the office tails wagging. Friendly, loyal, and always happy to greet clients, [Mascot Name] is the unofficial Chief Morale Officer of Doozers Title Workz.
+              Meet Bernie, the heart and official personality hire at Doozers Title Workz. As our beloved mascot, Bernie truly loves her job and understands that the secret to a successful business is the perfect balance between professional tasks and delicious treats.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              [Placeholder bio] Replace this with your dog's name, breed, age, and favorite things — treats, naps, and helping customers skip the DMV with a smile.
+              She takes her role as Chief Morale Officer very seriously, keeping the team's spirits high while ensuring her own treat quota stays even higher. When she finally punches out for the day, Bernie heads straight to her grandma's house to soak up some undivided attention and cash in on her hard-earned belly rubs. It's a tough job, but someone has to do it.
             </p>
           </div>
         </div>
