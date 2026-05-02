@@ -189,7 +189,7 @@ const Index = () => {
             Skip the DMV Today
           </h2>
           <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
-            Get your registration done fast with personalized, expert service. Call us or visit our El Cajon office.
+            Get your registration done fast with personalized, expert service. Give us a call or send us a message through our contact page.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="tel:6194577943">
