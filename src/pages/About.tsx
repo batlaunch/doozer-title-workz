@@ -65,13 +65,12 @@ const About = () => (
             />
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-foreground mb-4">Meet [Team Member Name]</h3>
-            <p className="text-sm text-primary font-semibold mb-3">[Placeholder — replace with real bio]</p>
+            <h3 className="text-3xl font-bold text-foreground mb-4">Meet Patty</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              [Placeholder bio] A short introduction to your second team member goes here. Share their role at Doozers Title Workz, their background in the automotive or DMV space, and what makes them a valuable part of the team.
+              Patty brings over 30 years of hands-on DMV processing experience, fueled by a deep-rooted understanding of the dealer world and its ever-changing demands. She is the type of person who thrives in fast-paced environments, constantly challenging herself to process more deals today than she did yesterday.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              [Placeholder bio] Add details about their experience, specialties, and what they enjoy about helping clients skip the DMV.
+              Known for her sharp attention to detail, Patty ensures every transaction is handled with absolute accuracy and care. When she isn't busy conquering mountains of paperwork, she has a major passion for fashion. She is a serious shoe enthusiast and loves growing her collection whenever she gets the chance.
             </p>
           </div>
         </div>
