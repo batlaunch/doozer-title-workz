@@ -38,16 +38,16 @@ const About = () => (
           <div>
             <h3 className="text-3xl font-bold text-foreground mb-4">Meet Lessley Jackson</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Lessley Jackson is the founder and driving force behind Doozers Title Workz, a specialized DMV registration and title service company serving dealerships, lenders, and private clients throughout California. With over 20 years of experience in the automotive industry, Lessley brings a rare depth of knowledge and hands-on expertise in navigating complex title and registration transactions.
+              Meet Lessley Jackson, the founder and driving force behind Doozers Title Workz. While most professionals would prefer almost any task over navigating the DMV, Lessley actually thrives on it. She has built a specialized service that manages registration and title complexities for dealerships, lenders, and private clients throughout California, bringing over 20 years of "seen it all" expertise to the table.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Beginning her career in the dealer world at just 15 years old, Lessley developed a strong foundation in dealership operations, title processing, and compliance. Over the years, she has become known for her ability to resolve difficult and often time-sensitive title issues, particularly those involving out-of-state transfers, lienholder discrepancies, and incomplete or problematic documentation.
+              Lessley's career in the automotive industry began at the age of 15, giving her a foundational understanding of dealership operations and title compliance. Over the decades, she has earned a reputation as the premier fixer for time-sensitive title emergencies, whether the challenge involves a messy out-of-state transfer, a lienholder who has gone missing, or problematic documentation that others find impossible to resolve.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Through Doozers Title Workz, Lessley partners closely with automotive dealerships, financial institutions, and industry professionals to ensure transactions are processed accurately, efficiently, and in full compliance with California DMV regulations. Her services extend beyond processing; she also provides consulting, troubleshooting, and training for dealership staff, helping clients better understand DMV procedures and avoid costly delays or penalties.
+              Through Doozers Title Workz, Lessley partners with industry professionals to ensure every transaction is processed with speed, accuracy, and full California DMV compliance. Her role extends beyond processing; she also serves as a consultant and trainer, equipping dealership teams with the skills to avoid costly "oops" moments and administrative penalties.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Lessley is deeply committed to raising the standard within the industry. Her mission centers on continuous improvement, education, and leaving a positive, lasting impact on the automotive and DMV services space. Known for her professionalism, responsiveness, and solutions-driven approach, she has built a reputation as a trusted resource for even the most complex title challenges.
+              Lessley is on a mission to elevate industry standards through a focus on education and professional excellence. Known for her responsiveness and solutions-driven mindset, she is the first call for many when a title situation becomes complicated. She has built her career as a trusted expert who handles the most complex regulatory challenges without breaking a sweat.
             </p>
           </div>
         </div>
