@@ -26,19 +26,24 @@ const Index = () => {
               Fast, reliable vehicle registration and title services in El Cajon.
               Over 20 years of experience making your DMV paperwork stress-free.
             </p>
-            <div className="hidden sm:block" style={{ height: "12vh" }} />
-            <div className="hidden sm:flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="tel:6194577943">
-                <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
-                  <Phone className="w-5 h-5 mr-2" /> Call Now
-                </Button>
-              </a>
-              <Link to="/services">
-                <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
-                  Start Your Registration <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-              </Link>
-            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Burgundy CTA bar below the hero — keeps buttons clear of the license plate */}
+      <section className="bg-primary py-6">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="tel:6194577943">
+              <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
+                <Phone className="w-5 h-5 mr-2" /> Call Now
+              </Button>
+            </a>
+            <Link to="/services">
+              <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
+                Start Your Registration <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
