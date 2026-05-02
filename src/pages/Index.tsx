@@ -13,10 +13,10 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex flex-col justify-between overflow-hidden">
         <img src={heroSloth} alt="Doozers Title Workz mascot holding a California license plate" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/50" />
-        <div className="relative z-10 container mx-auto px-4 text-center py-20">
+        <div className="relative z-10 container mx-auto px-4 text-center pt-20 pb-8">
           <div className="max-w-3xl mx-auto animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight mb-6">
               Skip the DMV Line —{" "}
@@ -26,19 +26,20 @@ const Index = () => {
               Fast, reliable vehicle registration and title services in El Cajon.
               Over 20 years of experience making your DMV paperwork stress-free.
             </p>
-            <div style={{ height: "12vh" }} />
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="tel:6194577943">
-                <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
-                  <Phone className="w-5 h-5 mr-2" /> Call Now
-                </Button>
-              </a>
-              <Link to="/services">
-                <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
-                  Start Your Registration <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-              </Link>
-            </div>
+          </div>
+        </div>
+        <div className="relative z-10 container mx-auto px-4 pb-10 sm:pb-16">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="tel:6194577943">
+              <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
+                <Phone className="w-5 h-5 mr-2" /> Call Now
+              </Button>
+            </a>
+            <Link to="/services">
+              <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
+                Start Your Registration <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
