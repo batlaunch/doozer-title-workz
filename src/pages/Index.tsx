@@ -59,6 +59,7 @@ const Index = () => {
             </Link>
           </div>
         </div>
+      </section>
 
       {/* Quick Highlights */}
       <section className="py-6 bg-card border-b border-border -mt-1">
