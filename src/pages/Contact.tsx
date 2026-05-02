@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 
 const faqs = [
-  { q: "Do I need an appointment?", a: "Walk-ins are welcome! However, calling ahead can help ensure we have everything ready for your visit." },
+  { q: "Do I need an appointment?", a: "Yes — walk-ins are not accepted. Please call us or schedule an appointment ahead of time so we can be ready for your visit." },
   { q: "What documents should I bring?", a: "This depends on the service needed. Generally, bring your vehicle title, current registration, valid ID, and proof of insurance. Call us and we'll give you a specific list." },
   { q: "How long does it take?", a: "Most services are completed much faster than a DMV visit. Many transactions can be handled the same day." },
   { q: "Are you affiliated with the DMV?", a: "We are an independent vehicle registration and title service provider. We are not the DMV, but we process DMV paperwork on your behalf." },
