@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Phone, Star, Award, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ownerPortrait from "@/assets/lessley-jackson.png";
+import teamPlaceholder from "@/assets/team-member-placeholder.jpg";
+import mascotDog from "@/assets/mascot-dog-placeholder.jpg";
 
 const About = () => (
   <div className="min-h-screen pt-16">
@@ -16,10 +18,13 @@ const About = () => (
       </div>
     </section>
 
-    {/* Owner Story */}
+    {/* Meet Our Team */}
     <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-16">Meet Our Team</h2>
+
+        {/* Lessley Jackson */}
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto mb-20">
           <div>
             <img
               src={ownerPortrait}
@@ -31,7 +36,7 @@ const About = () => (
             />
           </div>
           <div>
-            <h2 className="text-3xl font-bold text-foreground mb-4">Meet Lessley Jackson</h2>
+            <h3 className="text-3xl font-bold text-foreground mb-4">Meet Lessley Jackson</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Lessley Jackson is the founder and driving force behind Doozers Title Workz, a specialized DMV registration and title service company serving dealerships, lenders, and private clients throughout California. With over 20 years of experience in the automotive industry, Lessley brings a rare depth of knowledge and hands-on expertise in navigating complex title and registration transactions.
             </p>
@@ -43,6 +48,54 @@ const About = () => (
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Lessley is deeply committed to raising the standard within the industry. Her mission centers on continuous improvement, education, and leaving a positive, lasting impact on the automotive and DMV services space. Known for her professionalism, responsiveness, and solutions-driven approach, she has built a reputation as a trusted resource for even the most complex title challenges.
+            </p>
+          </div>
+        </div>
+
+        {/* Second Team Member - Placeholder */}
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto mb-20">
+          <div>
+            <img
+              src={teamPlaceholder}
+              alt="Team member placeholder"
+              className="rounded-2xl shadow-lg w-full"
+              loading="lazy"
+              width={800}
+              height={1000}
+            />
+          </div>
+          <div>
+            <h3 className="text-3xl font-bold text-foreground mb-4">Meet [Team Member Name]</h3>
+            <p className="text-sm text-primary font-semibold mb-3">[Placeholder — replace with real bio]</p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              [Placeholder bio] A short introduction to your second team member goes here. Share their role at Doozers Title Workz, their background in the automotive or DMV space, and what makes them a valuable part of the team.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              [Placeholder bio] Add details about their experience, specialties, and what they enjoy about helping clients skip the DMV.
+            </p>
+          </div>
+        </div>
+
+        {/* Mascot Dog - Placeholder */}
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+          <div>
+            <img
+              src={mascotDog}
+              alt="Doozers Title Workz mascot dog"
+              className="rounded-2xl shadow-lg w-full"
+              loading="lazy"
+              width={800}
+              height={1000}
+            />
+          </div>
+          <div>
+            <h3 className="text-3xl font-bold text-foreground mb-4">Meet [Mascot Name], Our Mascot</h3>
+            <p className="text-sm text-primary font-semibold mb-3">[Placeholder — replace with real bio &amp; photo]</p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              [Placeholder bio] Every great team has a mascot, and ours is the very good pup who keeps the office tails wagging. Friendly, loyal, and always happy to greet clients, [Mascot Name] is the unofficial Chief Morale Officer of Doozers Title Workz.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              [Placeholder bio] Replace this with your dog's name, breed, age, and favorite things — treats, naps, and helping customers skip the DMV with a smile.
             </p>
           </div>
         </div>
