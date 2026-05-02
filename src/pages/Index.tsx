@@ -41,8 +41,11 @@ const Index = () => {
             </div>
           </div>
         </div>
-        {/* Mobile-only buttons anchored below the license plate */}
-        <div className="sm:hidden relative z-10 container mx-auto px-4 pb-10 mt-auto">
+      </section>
+
+      {/* Mobile-only burgundy CTA bar — sits below the hero image so buttons don't cover the license plate */}
+      <section className="sm:hidden bg-primary py-6">
+        <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center gap-4">
             <a href="tel:6194577943">
               <Button size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 hover:scale-105 text-base px-8">
