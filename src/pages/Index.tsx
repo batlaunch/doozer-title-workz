@@ -130,7 +130,7 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
-              { title: "20+ Years of Experience", desc: "Lessley Jackson brings over two decades of automotive industry expertise.", label: null },
+              { title: "20+ Years of Experience", desc: "Lessley Jackson and her team bring over two decades of automotive industry expertise.", label: null },
               { title: "Local, Community-Focused", desc: "A proud part of the East County Biz Center community in El Cajon.", label: null },
               { title: "Military-Friendly", desc: "Specialized assistance for our military community with title transfers across the nation.", label: null },
               { title: "Auto Dealer Services", desc: "Expert support for new and existing auto dealers, in-state and out-of-state.", label: null },
