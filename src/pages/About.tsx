@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Star, Award, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ownerPortrait from "@/assets/lessley-jackson.png";
-import teamPlaceholder from "@/assets/team-member-placeholder.jpg";
+import teamPlaceholder from "@/assets/patty.png";
 import mascotDog from "@/assets/mascot-dog-placeholder.jpg";
 
 const About = () => (
