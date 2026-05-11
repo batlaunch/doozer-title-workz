@@ -57,7 +57,7 @@ const About = () => (
           <div>
             <img
               src={teamPlaceholder}
-              alt="Team member placeholder"
+              alt="Patty, DMV processing specialist at Doozers Title Workz"
               className="rounded-2xl shadow-lg w-full"
               loading="lazy"
               width={800}
