@@ -171,7 +171,7 @@ const Index = () => {
                     ))}
                   </div>
                   <p className="text-foreground text-sm mb-4 italic">"{t.quote}"</p>
-                  <p className="text-sm font-semibold text-muted-foreground">— {t.name}</p>
+                  {t.name && <p className="text-sm font-semibold text-muted-foreground">— {t.name}</p>}
                 </CardContent>
               </Card>
             ))}
