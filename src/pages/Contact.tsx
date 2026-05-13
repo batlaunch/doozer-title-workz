@@ -201,6 +201,24 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
+      {/* Review CTA */}
+      <section className="py-16 relative overflow-hidden">
+        <div className="absolute inset-0" style={{ background: "var(--hero-gradient)" }} />
+        <div className="relative z-10 container mx-auto px-4 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
+            Love Our Service?
+          </h2>
+          <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
+            We'd love to hear about your experience. Leave us a review and let others know how we did!
+          </p>
+          <Link to="/#review-form">
+            <Button size="lg" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105 px-8">
+              <Star className="w-5 h-5 mr-2" /> Leave a Review
+            </Button>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 };
