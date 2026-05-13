@@ -177,6 +177,9 @@ const Index = () => {
               </Card>
             ))}
           </div>
+          <div className="mt-12">
+            <ReviewForm />
+          </div>
         </div>
       </section>
 
