@@ -3,6 +3,7 @@ import { Phone, Clock, MapPin, Users, Star, ChevronRight, FileText, Car, Shield,
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import CarCard from "@/components/CarCard";
+import ReviewForm from "@/components/ReviewForm";
 import logoIcon from "@/assets/logo-icon.png";
 import heroSloth from "@/assets/hero-sloth.jpg";
 import slothProcess1 from "@/assets/sloth-process-1.png";
@@ -175,6 +176,9 @@ const Index = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+          <div className="mt-12">
+            <ReviewForm />
           </div>
         </div>
       </section>
