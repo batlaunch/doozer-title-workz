@@ -157,13 +157,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">What Our Customers Say</h2>
-            <p className="text-xs text-muted-foreground italic">[EXAMPLE TESTIMONIALS – EDIT NEEDED]</p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
-              { quote: "Super fast and way easier than the DMV. Lessley is amazing!", name: "Maria G." },
               { quote: "Friendly and professional service. They handled my out-of-state transfer perfectly.", name: "James R." },
-              { quote: "Saved me hours of waiting. I'll never go back to the DMV for registration!", name: "Sarah T." },
+              { quote: "Whether it be the kids dirt bikes, livestock trailers, the wife's SUV or boss's exotic toys, DOOZERS gets it and keeps it registered! Thank you team DOOZERS!", name: "" },
             ].map((t, i) => (
               <Card key={i} className="border border-border">
                 <CardContent className="p-6">
