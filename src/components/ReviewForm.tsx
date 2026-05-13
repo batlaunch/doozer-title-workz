@@ -45,7 +45,7 @@ const ReviewForm = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: "batlaunchcustoms@gmail.com",
+          to: "info@doozerstitles.com",
           subject: `New ${rating}-star review from ${name}`,
           text,
           html,
