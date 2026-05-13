@@ -79,6 +79,20 @@ const Contact = () => {
         </div>
       </section>
 
+      {/* Review CTA — high visibility */}
+      <section className="py-8 bg-section-alt border-b border-border">
+        <div className="container mx-auto px-4 text-center max-w-2xl">
+          <p className="text-muted-foreground mb-3">
+            Love our service? We'd love to hear about your experience!
+          </p>
+          <Link to="/#review-form">
+            <Button size="lg" className="bg-secondary text-primary hover:bg-secondary/90 hover:scale-105 px-8">
+              <Star className="w-5 h-5 mr-2" /> Leave a Review
+            </Button>
+          </Link>
+        </div>
+      </section>
+
       {/* Contact Info + Form */}
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
