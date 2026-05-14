@@ -159,7 +159,7 @@ const Index = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">What Our Customers Say</h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="flex justify-center max-w-2xl mx-auto">
             {[
               { quote: "Whether it be the kids dirt bikes, livestock trailers, the wife's SUV or boss's exotic toys, DOOZERS gets it and keeps it registered! Thank you team DOOZERS!", name: "Cameron P." },
             ].map((t, i) => (
