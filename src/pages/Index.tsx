@@ -161,7 +161,6 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
-              { quote: "Friendly and professional service. They handled my out-of-state transfer perfectly.", name: "James R." },
               { quote: "Whether it be the kids dirt bikes, livestock trailers, the wife's SUV or boss's exotic toys, DOOZERS gets it and keeps it registered! Thank you team DOOZERS!", name: "Cameron P." },
             ].map((t, i) => (
               <Card key={i} className="border border-border">
