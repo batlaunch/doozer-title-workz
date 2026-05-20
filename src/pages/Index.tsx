@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import CarCard from "@/components/CarCard";
 import ReviewForm from "@/components/ReviewForm";
+import SEO from "@/components/SEO";
 import logoIcon from "@/assets/logo-icon.png";
 import heroSloth from "@/assets/hero-sloth.jpg";
 import slothProcess1 from "@/assets/sloth-process-1.png";
@@ -13,6 +14,11 @@ import slothProcess3 from "@/assets/sloth-process-3.png";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Doozers Title Workz | Vehicle Registration & Title Services in El Cajon, CA"
+        description="Skip the DMV line. Doozers Title Workz handles vehicle registration, title transfers, and dealer paperwork in El Cajon, CA. Over 20 years of experience."
+        path="/"
+      />
       {/* Hero */}
       <section className="relative min-h-[90vh] flex flex-col sm:items-center sm:justify-center overflow-hidden">
         <img src={heroSloth} alt="Doozers Title Workz mascot holding a California license plate" className="absolute inset-0 w-full h-full object-cover" />

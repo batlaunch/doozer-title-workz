@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
+import SEO from "@/components/SEO";
 
 const faqs = [
   { q: "Do I need an appointment?", a: "Yes — walk-ins are not accepted. Please call us or schedule an appointment ahead of time so we can be ready for your visit." },
@@ -68,6 +69,20 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen pt-16">
+      <SEO
+        title="Contact Doozers Title Workz | Call (619) 457-7943 — El Cajon, CA"
+        description="Visit Doozers Title Workz at 270 E Douglas Ave, Suite 104, El Cajon, CA. Open Mon–Fri 9–4. Call (619) 457-7943 or message us online."
+        path="/contact"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }}
+      />
       {/* Hero */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.95 }} />

@@ -6,6 +6,7 @@ import slothProcess3 from "@/assets/sloth-process-3.png";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import CarCard from "@/components/CarCard";
+import SEO from "@/components/SEO";
 import servicesBg from "@/assets/services-bg.jpg";
 
 const services = [
@@ -16,8 +17,25 @@ const services = [
   { icon: Truck, title: "New and Used Auto Dealer Registration", desc: "Specialized support for auto dealers with registration issues, both in-state and out-of-state.", label: null },
 ];
 
+const servicesJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: services.map((s, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: s.title,
+    description: s.desc,
+  })),
+};
+
 const Services = () => (
   <div className="min-h-screen pt-16">
+    <SEO
+      title="Services | Vehicle Registration, Title Transfers & Dealer Support"
+      description="Vehicle registration, title transfers, out-of-state transfers, replacement tags, and auto dealer registration support in El Cajon, CA."
+      path="/services"
+      jsonLd={servicesJsonLd}
+    />
     {/* Hero */}
     <section className="py-20 relative overflow-hidden">
       <div className="absolute inset-0">
