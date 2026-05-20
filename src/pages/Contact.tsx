@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
+import SEO from "@/components/SEO";
 
 const faqs = [
   { q: "Do I need an appointment?", a: "Yes — walk-ins are not accepted. Please call us or schedule an appointment ahead of time so we can be ready for your visit." },

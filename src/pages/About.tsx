@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
 import { Phone, Star, Award, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 import ownerPortrait from "@/assets/lessley-jackson.png";
 import teamPlaceholder from "@/assets/patty.png";
 import mascotDog from "@/assets/bernie.jpg";
 
 const About = () => (
   <div className="min-h-screen pt-16">
+    <SEO
+      title="About Doozers Title Workz | 20+ Years of DMV Title Expertise"
+      description="Meet Lessley Jackson and the team behind Doozers Title Workz in El Cajon. Specialists in vehicle registration, title transfers, and auto dealer support."
+      path="/about"
+    />
     {/* Hero */}
     <section className="py-20 relative overflow-hidden">
       <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.95 }} />
