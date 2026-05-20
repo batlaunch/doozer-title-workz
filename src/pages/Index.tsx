@@ -56,8 +56,9 @@ const Index = () => {
       </section>
 
       {/* Quick Highlights */}
-      <section className="py-6 bg-card border-b border-border -mt-1">
+      <section className="py-6 bg-card border-b border-border -mt-1" aria-labelledby="highlights-heading">
         <div className="container mx-auto px-4">
+          <h2 id="highlights-heading" className="sr-only">Why customers choose Doozers Title Workz</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { icon: MapPin, title: "Local El Cajon Business", desc: "Conveniently located inside East County Biz Center" },
@@ -77,6 +78,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
 
       {/* Services Preview */}
       <section className="py-20 bg-section-alt">
