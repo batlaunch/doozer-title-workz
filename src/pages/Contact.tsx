@@ -170,8 +170,9 @@ const Contact = () => {
                   <p className="text-sm text-muted-foreground mb-6">Fill out the form and we'll get back to you quickly.</p>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
-                      <label className="text-sm font-medium text-foreground mb-1 block">Name *</label>
+                      <label htmlFor="contact-name" className="text-sm font-medium text-foreground mb-1 block">Name *</label>
                       <Input
+                        id="contact-name"
                         required
                         value={form.name}
                         onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -179,24 +180,28 @@ const Contact = () => {
                       />
                     </div>
                     <div>
-                      <label className="text-sm font-medium text-foreground mb-1 block">Phone</label>
+                      <label htmlFor="contact-phone" className="text-sm font-medium text-foreground mb-1 block">Phone</label>
                       <Input
+                        id="contact-phone"
+                        type="tel"
                         value={form.phone}
                         onChange={(e) => setForm({ ...form, phone: e.target.value })}
                         placeholder="(619) 000-0000"
                       />
                     </div>
                     <div>
-                      <label className="text-sm font-medium text-foreground mb-1 block">Service Needed</label>
+                      <label htmlFor="contact-service" className="text-sm font-medium text-foreground mb-1 block">Service Needed</label>
                       <Input
+                        id="contact-service"
                         value={form.service}
                         onChange={(e) => setForm({ ...form, service: e.target.value })}
                         placeholder="e.g. Title Transfer, Registration Renewal"
                       />
                     </div>
                     <div>
-                      <label className="text-sm font-medium text-foreground mb-1 block">Message</label>
+                      <label htmlFor="contact-message" className="text-sm font-medium text-foreground mb-1 block">Message</label>
                       <Textarea
+                        id="contact-message"
                         value={form.message}
                         onChange={(e) => setForm({ ...form, message: e.target.value })}
                         placeholder="Tell us how we can help..."

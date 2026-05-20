@@ -51,8 +51,9 @@ const Services = () => (
     </section>
 
     {/* Services Grid */}
-    <section className="py-20 bg-card">
+    <section className="py-20 bg-card" aria-labelledby="services-grid-heading">
       <div className="container mx-auto px-4">
+        <h2 id="services-grid-heading" className="sr-only">What we offer</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {services.map((s, i) => (
             <CarCard key={i} icon={s.icon} title={s.title} desc={s.desc} label={s.label} />
@@ -60,6 +61,7 @@ const Services = () => (
         </div>
       </div>
     </section>
+
 
     {/* How It Works */}
     <section className="py-20 bg-card">

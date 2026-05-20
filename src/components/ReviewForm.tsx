@@ -77,8 +77,9 @@ const ReviewForm = () => {
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="text-sm font-medium text-foreground mb-1 block">Name *</label>
+            <label htmlFor="review-name" className="text-sm font-medium text-foreground mb-1 block">Name *</label>
             <Input
+              id="review-name"
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -87,8 +88,8 @@ const ReviewForm = () => {
             />
           </div>
           <div>
-            <label className="text-sm font-medium text-foreground mb-2 block">Rating *</label>
-            <div className="flex gap-1">
+            <span id="review-rating-label" className="text-sm font-medium text-foreground mb-2 block">Rating *</span>
+            <div className="flex gap-1" role="radiogroup" aria-labelledby="review-rating-label">
               {[1, 2, 3, 4, 5].map((s) => (
                 <button
                   key={s}
@@ -98,6 +99,7 @@ const ReviewForm = () => {
                   onMouseLeave={() => setHover(0)}
                   className="p-1 transition-transform hover:scale-110"
                   aria-label={`${s} star${s > 1 ? "s" : ""}`}
+                  aria-pressed={rating === s}
                 >
                   <Star
                     className={`w-8 h-8 ${
@@ -111,8 +113,9 @@ const ReviewForm = () => {
             </div>
           </div>
           <div>
-            <label className="text-sm font-medium text-foreground mb-1 block">Your Review *</label>
+            <label htmlFor="review-message" className="text-sm font-medium text-foreground mb-1 block">Your Review *</label>
             <Textarea
+              id="review-message"
               required
               value={review}
               onChange={(e) => setReview(e.target.value)}
