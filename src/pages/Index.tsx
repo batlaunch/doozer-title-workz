@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Doozers Title Workz | Vehicle Registration & Title Services in El Cajon, CA"
+        title="Doozers Title Workz | Vehicle Registration El Cajon"
         description="Skip the DMV line. Doozers Title Workz handles vehicle registration, title transfers, and dealer paperwork in El Cajon, CA. Over 20 years of experience."
         path="/"
       />
