@@ -69,6 +69,20 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen pt-16">
+      <SEO
+        title="Contact Doozers Title Workz | Call (619) 457-7943 — El Cajon, CA"
+        description="Visit Doozers Title Workz at 270 E Douglas Ave, Suite 104, El Cajon, CA. Open Mon–Fri 9–4. Call (619) 457-7943 or message us online."
+        path="/contact"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }}
+      />
       {/* Hero */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0" style={{ background: "var(--hero-gradient)", opacity: 0.95 }} />
