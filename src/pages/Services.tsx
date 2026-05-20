@@ -31,7 +31,7 @@ const servicesJsonLd = {
 const Services = () => (
   <div className="min-h-screen pt-16">
     <SEO
-      title="Services | Vehicle Registration, Title Transfers & Dealer Support"
+      title="Services | Doozers Title Workz — El Cajon, CA"
       description="Vehicle registration, title transfers, out-of-state transfers, replacement tags, and auto dealer registration support in El Cajon, CA."
       path="/services"
       jsonLd={servicesJsonLd}

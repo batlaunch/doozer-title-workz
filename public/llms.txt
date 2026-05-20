@@ -1,0 +1,14 @@
+# Doozers Title Workz
+
+> Independent vehicle registration and title service in El Cajon, CA. Skip the DMV line with over 20 years of expertise in registrations, title transfers, and auto dealer paperwork.
+
+Doozers Title Workz, founded by Lessley Jackson, handles California DMV paperwork for private clients, lenders, and auto dealerships. Services include new and renewal vehicle registration, title transfers, out-of-state transfers, replacement tags and stickers, and dealer registration support. The office is located inside East County Biz Center at 270 E Douglas Ave, Suite 104, El Cajon, CA. Phone: (619) 457-7943. Hours: Mon–Fri 9:00 AM – 4:00 PM.
+
+Doozers Title Workz is an independent service provider and is not affiliated with the California DMV.
+
+## Pages
+
+- [Home](/): Overview of services, highlights, testimonials, and review form.
+- [About](/about): Meet owner Lessley Jackson and the team, plus company values.
+- [Services](/services): Vehicle registration, title transfers, out-of-state transfers, replacement tags, and auto dealer registration.
+- [Contact](/contact): Address, phone, hours, contact form, and FAQs.
